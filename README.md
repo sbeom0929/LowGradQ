@@ -19,9 +19,9 @@ Pytorch 2.2.1
 
 ### Running the Experiment
 To run the experiment, use the following command:
-'''
+```
 CUDA_VISIBLE_DEVICES=0,1 python main.py --pretrained=pretrained_weight/resnet/resnet18-5c106cde.pth --save-dir=results/resnet18_quant --lr=0.001
-'''
+```
 
 ### Citation
 If you find this repo useful in your research, please consider citing the following paper:
